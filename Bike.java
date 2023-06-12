@@ -1,21 +1,16 @@
-
-class Bike
+abstract class Bike
 {
-final void run()
-{
-System.out.println("running");
+abstract void run();
 }
-}
-class Honda extends Bike
+class Honda4 extends Bike
 {
 void run()
 {
-System.out.println("running safely with 100kmph");
+System.out.println("running safely");
 }
 public static void main(String args[])
 {
-Honda obh=new Honda();
-obh.run();
+Bike obj=new Honda4();
+obj.run();
 }
 }
-

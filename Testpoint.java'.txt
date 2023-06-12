@@ -1,0 +1,31 @@
+public class Point
+{
+double x;
+double y;
+public void setX(double x_values)
+{ 
+x=x_values;
+}
+public void setY(double y_values)
+{ 
+y=y_values;
+}
+public double getX()
+{
+x=x_values;
+}
+public double getY()
+{
+y=y_values;
+} 
+public double Square_distance_from_origin()
+{
+return X*X+Y*Y;
+}
+class Testpoint
+{
+public static void main(String args[])
+{
+point p;
+p=new point();
+}
